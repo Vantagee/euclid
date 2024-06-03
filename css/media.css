@@ -1,0 +1,34 @@
+@media (max-width: 1820px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .footer__right-block {
+        display: none;
+    }
+
+    .footer__middle-block {
+        margin: 0;
+    }
+
+    .section-about-us {
+        --offsets: 0;
+    }
+
+    .section-questions {
+        --offsets: 1;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header__nav-list {
+        column-gap: 60px;
+    }
+
+    .section-questions {
+        --offsets: 0;
+    }
+}
+
